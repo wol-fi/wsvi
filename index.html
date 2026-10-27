@@ -100,7 +100,7 @@ footer{font-size:12px;color:var(--muted);border-top:1px solid var(--line);paddin
 <div class="note-meta"><span>For discussion with Charles Clevenger and Xiang Wan</span><span>·</span><span>One-expiry calibration</span><span>·</span><span>Research prototype, not a general WSVI solver</span></div>
 <nav class="anchor-links" aria-label="Jump to section"><a href="#connection">Model connection</a><a href="#quartic">Quartic</a><a href="#example">Plots</a></nav>
 </header>
-<p class="intro">I have been exploring whether the direct algebraic fitting idea from <em>Direct Fit for SVI Implied Volatilities</em> (2023) could be adapted to W-shaped smiles. Your WSVI paper suggests a natural starting point. Its <strong>symmetric pair of order-one basis functions</strong> admits an exact quartic equation in log-moneyness and total variance. With a fixed effective scale, that equation can be fitted by weighted linear algebraic residuals, and a polynomial test can check the resulting smile for global butterfly arbitrage.</p>
+<p class="intro">I have been exploring whether the direct algebraic fitting idea from <a href="https://doi.org/10.3905/jod.2023.1.199"><em>Direct Fit for SVI Implied Volatilities</em> (Schadner, 2024)</a> could be adapted to W-shaped smiles. Your WSVI paper suggests a natural starting point. Its <strong>symmetric pair of order-one basis functions</strong> admits an exact quartic equation in log-moneyness and total variance. With a fixed effective scale, that equation can be fitted by weighted linear algebraic residuals, and a polynomial test can check the resulting smile for global butterfly arbitrage.</p>
 <div class="findings">
 <div class="finding"><b>Exact correspondence</b><span>The symmetric order-one WSVI member is algebraic and has a quartic implicit representation.</span></div>
 <div class="finding"><b>Simple fitting objective</b><span>At fixed effective scale, fitting the quartic coefficients uses a quadratic weighted least-squares objective.</span></div>
@@ -207,7 +207,7 @@ footer{font-size:12px;color:var(--muted);border-top:1px solid var(--line);paddin
 
 <section id="references"><div class="section-tag">Sources and reproducibility</div><h2>References and scope of verification</h2>
 <ol class="refs">
-<li>Schadner, W. (2023). <em>Direct Fit for SVI Implied Volatilities.</em> Manuscript dated 7 July 2023.</li>
+<li>Schadner, W. (2024). <em>Direct Fit for SVI Implied Volatilities.</em> <em>The Journal of Derivatives</em>, 31(3), 38–49. <a href="https://doi.org/10.3905/jod.2023.1.199">https://doi.org/10.3905/jod.2023.1.199</a>. The conic representation and direct algebraic least-squares fitting approach used here originate in this paper.</li>
 <li>Clevenger, C. and Wan, X. (2026). <em>WSVI: A Dimensionless Shape Family for Implied Volatility and Its Static No-Arbitrage Structure.</em> <a href="https://arxiv.org/abs/2608.22620">arXiv:2608.22620</a>.</li>
 <li>Gatheral, J. and Jacquier, A. (2014). <em>Arbitrage-free SVI volatility surfaces.</em> <em>Quantitative Finance</em>, 14, 59–71.</li>
 <li>Martini, C. and Mingone, A. (2022). <em>No arbitrage SVI.</em> <em>SIAM Journal on Financial Mathematics</em>, 13, 227–261.</li>

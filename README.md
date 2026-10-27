@@ -27,5 +27,6 @@ The W-SVI model here is a **restricted quartic** with fixed effective scale, not
 
 ## References
 
+- Schadner, W. (2024), *Direct Fit for SVI Implied Volatilities*, *The Journal of Derivatives*, 31(3), 38–49. https://doi.org/10.3905/jod.2023.1.199 — source of the conic representation and direct algebraic SVI fitting method.
 - Clevenger and Wan (2026), *WSVI: A Dimensionless Shape Family for Implied Volatility and Its Static No-Arbitrage Structure*, https://arxiv.org/abs/2608.22620
 - Gatheral and Jacquier (2014), *Arbitrage-free SVI volatility surfaces*

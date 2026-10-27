@@ -34,7 +34,7 @@ The conic coefficients enter linearly. Once one coefficient is normalized, the *
 
 
 $$
-\boxed{\min_{z_1=1}\; (Dz)^\top SWS(Dz),\qquad W=\operatorname{diag}(\omega_1,\ldots,\omega_n)}
+\boxed{\min_{z_1=1}\; (Dz)^\top SWS(Dz),\qquad W=\mathrm{diag}(\omega_1,\ldots,\omega_n)}
 $$
 
 

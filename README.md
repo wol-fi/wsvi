@@ -4,7 +4,7 @@ Research discussion material on weighted algebraic-conic fitting and global butt
 
 ## Research note
 
-Read the [GitHub-rendered discussion note](DISCUSSION.md), including equations and figures, directly in the repository. For the standalone web version, see [the HTML edition](index.html) (served by GitHub Pages when enabled).
+Read the [discussion note](DISCUSSION.md), including equations and figures, directly on GitHub.
 
 ## Reproduce the examples
 
@@ -20,7 +20,7 @@ The W-SVI model here is a **restricted quartic** with fixed effective scale, not
 
 ## Contents
 
-- `Direct_fit_WSVI_discussion_note.html` — self-contained explanation and figures
+- `DISCUSSION.md` — research note with equations and figures
 - `svi_wsvi_nobfly.py` — executable examples in both model families
 - `verify_vogt_algebra.py` — symbolic verification utility
 - `figures/` — representative comparison plots

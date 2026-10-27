@@ -262,7 +262,7 @@ Executed in Python using the companion `svi_wsvi_nobfly.py --model wsvi` program
 The same framework is available in ordinary SVI mode. Here the input consists of 71 synthetic observations generated from the conventional Axel Vogt counterexample. The fitted unweighted and ATM-weighted models passed the degree-ten polynomial feasibility test in the executed run.
 
 
-![W-SVI calibration and Durrleman comparison](figures/wsvi_comparison.png)
+![Axel Vogt standard SVI: original variance smile, unweighted and ATM-weighted no-butterfly-arbitrage fits, and Durrleman functions](figures/svi_comparison.png)
 
 
 Run `python svi_wsvi_nobfly.py --model svi` to generate these figures. This experiment is supplementary and separate from the quartic W-SVI result.

@@ -4,7 +4,7 @@ Research discussion material on weighted algebraic-conic fitting and global butt
 
 ## Research note
 
-Open [Direct-fit WSVI discussion note](Direct_fit_WSVI_discussion_note.html). This is a self-contained HTML document with embedded equations and comparison figures. Download the file to view it in a browser.
+Read the [GitHub-rendered discussion note](DISCUSSION.md), including equations and figures, directly in the repository. For the standalone web version, see [the HTML edition](index.html) (served by GitHub Pages when enabled).
 
 ## Reproduce the examples
 
